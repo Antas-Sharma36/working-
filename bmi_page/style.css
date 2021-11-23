@@ -70,16 +70,37 @@ input::-webkit-inner-spin-button {
     padding-top: 16px;
   }
 
-/* sidebar buttons */
-.expendable-menu a {
+/* For the Expendable sidebar  */
+.expendable-menu{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FEE5A2;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+/* flexbox for sidebar */
+.expendable-menu .flex-container {
+    top: 100px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 40px;
     color: black;
     display: flex;
-    
+    flex-direction: column;
+    /* height: 100%; */
+    left: 50px;
+    align-items: center;
+    justify-content: center;    
 }
 
+/* sidebar buttons */
+.expendable-menu .flex-container a{
+    height: auto;
+}
 /* Profile Button */
 .expendable-menu .profile_button{
     position: relative;

@@ -61,17 +61,28 @@
     background-color: #FEE5A2;
     overflow-x: hidden;
     padding-top: 16px;
-  }
+}
 
-/* sidebar buttons */
-.expendable-menu a {
+/* flexbox for sidebar */
+.expendable-menu .flex-container {
+    top: 100px;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 40px;
     color: black;
     display: flex;
-    
+    flex-direction: column;
+    /* height: 100%; */
+    left: 50px;
+    align-items: center;
+    justify-content: center;    
 }
+
+/* sidebar buttons */
+.expendable-menu .flex-container a{
+    height: auto;
+}
+
 
 /* Profile Button */
 .expendable-menu .profile_button{

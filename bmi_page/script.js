@@ -32,4 +32,3 @@ document.querySelector(".content .input_data .submit_button").addEventListener("
 
 export {weight,height,goal,level};
 
-

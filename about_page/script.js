@@ -1,4 +1,4 @@
-function run_on_load() {
-    document.querySelector(".content .display_contact").innerHTML = "hello";
+
+function sign_in() {
+    window.location.href = "../sign_in/index.html";
 }
-window.onload = run_on_load();

@@ -3,5 +3,5 @@ function contact_us() {
 }
 
 function sign_in() {
-    window.location.href = "../bmi_page/index.html";
+    window.location.href = "../sign_in/index.html";
 }
